@@ -1,0 +1,22 @@
+{
+    "name": "solwin/cmspageimportexport",
+    "description": "By using CMS Page Import/Export Magento 2 extension, you can easily transfer CMS page from an old site to a new site with all related data.",
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\CmsPageImportExport\\": ""
+        }
+    }
+}
